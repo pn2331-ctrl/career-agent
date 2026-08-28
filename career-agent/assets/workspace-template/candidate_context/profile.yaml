@@ -1,0 +1,43 @@
+# Confirm every value with the user before treating it as active. User-confirmed
+# hard rules do not change unless the user explicitly revises them.
+profile_version: 3
+readiness:
+  setup: draft # draft | confirmed
+  evidence: not_started # not_started | gaps_open | confirmed
+  search: blocked # blocked | ready
+  last_confirmed_on: ""
+candidate:
+  display_name: ""
+goals:
+  target_role_families: []
+  acceptable_titles: []
+  preferred_industries: []
+  excluded_industries: []
+  locations: []
+  work_models: []
+  compensation_preferences: ""
+  seniority_preferences: []
+  contract_preferences: ""
+  travel_preferences: ""
+hard_rules:
+  confirmed: false
+  items: []
+work_authorization:
+  work_regions: []
+  current_status: ""
+  future_sponsorship_needed: unknown
+  resume_disclosure_preference: "ask_before_disclosing"
+resume_strategy:
+  selected_visual_template: ""
+  layout_spec_path: "resume_layout/layout-spec.yaml"
+  layout_status: unselected # unselected | draft | approved
+  evidence_mode: source_faithful # source_faithful | evidence_enriched
+  preferred_language: ""
+  length_preference: ""
+  approved_role_family_bases: []
+permissions:
+  inspect_current_results_page: false
+  open_official_career_pages: false
+  update_local_tracker: false
+  create_resume_drafts: false
+  external_submission_requires_confirmation: true

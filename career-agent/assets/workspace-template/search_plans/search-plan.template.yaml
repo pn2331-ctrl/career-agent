@@ -1,0 +1,27 @@
+role_family: ""
+status: blocked # blocked | ready | paused
+profile_status_required: confirmed
+role_family_design_path: ""
+hard_rules_snapshot: []
+hard_rules_confirmed_on: ""
+platform_filters:
+  location: ""
+  experience_level: ""
+  employment_type: ""
+  date_posted: ""
+exact_title_lane:
+  enabled: true
+  titles: []
+  version: 1
+ai_prompt_lane:
+  enabled: false
+  prompt: ""
+  responsibility_anchors: []
+  version: 1
+primary_lane: exact_title
+ai_supplement_conditions:
+  minimum_viable_roles_per_page: "set_with_user"
+  exploration_cadence: "set_with_user"
+calibration:
+  exact_title_status: untested
+  ai_prompt_status: untested

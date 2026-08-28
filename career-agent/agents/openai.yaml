@@ -1,0 +1,4 @@
+interface:
+  display_name: "Career Agent"
+  short_description: "Build evidence-first job searches and truthful resumes."
+  default_prompt: "Use $career-agent to build my private, evidence-first job-search foundation before screening roles."

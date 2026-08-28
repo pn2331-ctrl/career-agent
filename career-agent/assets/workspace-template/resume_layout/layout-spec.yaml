@@ -1,0 +1,41 @@
+# Complete and approve this before creating a role-family base. Values may be
+# distilled from a user-selected visual reference or proposed for approval.
+status: draft # draft | approved
+visual_reference: ""
+page:
+  size: ""
+  target_pages: null
+  margins_in:
+    top: null
+    right: null
+    bottom: null
+    left: null
+typography:
+  family: ""
+  name_pt: null
+  contact_pt: null
+  heading_pt: null
+  body_pt: null
+  date_pt: null
+  emphasis: ""
+spacing:
+  body_line: null
+  bullet_line: null
+  paragraph_after_pt: null
+  section_before_pt: null
+  section_after_pt: null
+structure:
+  header_layout: ""
+  section_order: []
+  experience_layout: ""
+  date_alignment: ""
+  bullet_hanging_indent_in: null
+ats_constraints:
+  single_column: true
+  allow_tables: false
+  allow_text_boxes: false
+  allow_icons: false
+  visible_internal_status: false
+approval:
+  approved_by_user: false
+  approved_on: ""
