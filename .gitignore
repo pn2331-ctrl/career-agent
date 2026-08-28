@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Candidate-owned artifacts never belong in the public skill repository.
+*.pdf
+*.docx
+*.doc
+*.pages
+*.rtf
